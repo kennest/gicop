@@ -131,7 +131,7 @@ header{
 #carriere_content{
     position: relative;
     top: 200px;
-    right: 163px;
+    right: 83px;
 }
 #carriere_content h1{
     font-size: 70px;
@@ -148,4 +148,19 @@ header{
 #carriere_content span{
     color: #db5c4f;
     font-size: large;
+}
+#categories{
+    position: relative;
+    margin: 60px;
+}
+#categories h2{
+    color: #db5c4f;
+    font-size: x-large;
+}
+#categories  p{
+    font-weight: 100;
+}
+#banner{
+    position: relative;
+    margin: 60px;
 }
