@@ -183,3 +183,6 @@ footer #arborescence a,h5{
 #arborescence h5{
     padding-bottom: 20px;
 }
+#footer > div > div > div.col.offset-7 > ul > li > a{
+    color: white;
+}
