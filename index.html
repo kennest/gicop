@@ -21,7 +21,9 @@
     <nav class="navbar trans bg-faded navbar-toggleable-md fixed-top">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu"
                 aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                Menu
+            </span>
         </button>
         <div id="menu" class="row collapse navbar-collapse">
             <div class="col-12 container" style="margin-right: 0px;">
@@ -87,6 +89,59 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 container" id="search">
+                <div class="row justify-content-between">
+                    <div class="col-12">
+                        <div class="input-group" id="search_form">
+                            <select class="col-4 form-control-lg" >
+                                <option selected>Mots cles,competences,metiers...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <select class="col-6 form-control-lg" >
+                                <option selected>Lieu:ville ou region...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <div class="input-group-append">
+                                <button class="btn btn-danger btn-lg" type="submit" style="border-radius: 6.3rem;">
+                                    Recherche   <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-3 offset-9">
+                            <h1 class="text-danger">2141 POSTES</h1>
+                        </div>
+                        <div class="col-4 offset-8">
+                            <h3 class="text-lg-right" style="color: white">OUVERTS EN COTE D'IVOIRE</h3>
+                        </div>
+                        <div class="col-5 offset-7">
+                            <p class="text-lg-right" style="color: white">Inscrivez vous et laissez les offres d'emploi venir à vous</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="col-12 row" id="login">
+                <p class="text-center col-12"><em>Connectez-vous !</em></p>
+                <div class="form-group col-4">
+                    <input type="email" class="form-control mb-4 mr-sm-3" placeholder="email">
+                </div>
+                <div class="form-group col-4">
+                    <input type="password" class="form-control mb-4 mr-sm-2" placeholder="mot de passe">
+                </div>
+                <div class="form-group col-4">
+                   <button type="submit" class="btn btn-danger btn-md">connexion</button>
+                    <p><a href="#">Mot de passe oublié?</a></p>
+                </div>
+                <p class="text-center col-12">Vous avez deja un compte?Connectez-vous?</p>
+                <div class="form-group col-12">
+                    <a href="#" class="btn btn-danger btn-md">Inscription</a>
+                </div>
+            </form>
         </div>
     </nav>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -97,27 +152,11 @@
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <img class="first-slide" src="images/header.png" alt="First slide">
-                <div class="container">
-                    <div class="carousel-caption d-none d-md-block text-left">
-                        <h1>Example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                    </div>
-                </div>
             </div>
             <div class="carousel-item">
                 <img class="second-slide"
                      src="images/header.png"
                      alt="Second slide">
-                <div class="container">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Another example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                    </div>
-                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -130,17 +169,141 @@
         </a>
     </div>
 </header>
-<section></section>
+<section id="offres">
+    <div class="container">
+        <h2 class="text-center text-danger">Offres d'emplois</h2>
+        <ul class="list-unstyled">
+            <hr>
+            <li class="media">
+                <img class="mr-3" src="images/offres/o1.png" alt="Generic placeholder image">
+                <div class="media-body row">
+                    <div class="col-8 text">
+                        <h5 class="mt-0 mb-1">Directeur Executif</h5>
+                        <p><strong>MCE</strong>(La Maison des Chefs d'Entreprises)</p>
+                        <p><i class="fas fa-map-marker"></i>Abidjan  Cote d'Ivoire <i class="far fa-clock"></i> Aujourd'hui Confirmé/Experimenté (6 à 10 ans)</p>
+                    </div>
+                    <div class="col-4 action">
+                        <div class="btn-group" role="group">
+                            <a href="#" class="btn">Lire</a>
+                            <a href="#">
+                                <i class="fas fa-2x fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <hr>
+            <li class="media my-4">
+                <img class="mr-3" src="images/offres/o2.png" alt="Generic placeholder image">
+                <div class="media-body row">
+                    <div class="col-8 text">
+                        <h5 class="mt-0 mb-1">Directeur Executif</h5>
+                        <p><strong>MCE</strong>(La Maison des Chefs d'Entreprises)</p>
+                        <p><i class="fas fa-map-marker"></i>Abidjan  Cote d'Ivoire <i class="far fa-clock"></i> Aujourd'hui Confirmé/Experimenté (6 à 10 ans)</p>
+                    </div>
+                    <div class="col-4 action">
+                        <div class="btn-group" role="group">
+                            <a href="#" class="btn">Lire</a>
+                            <a href="#">
+                                <i class="fas fa-2x fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <hr>
+            <li class="media">
+                <img class="mr-3" src="images/offres/o3.png" alt="Generic placeholder image">
+                <div class="media-body row">
+                    <div class="col-8 text">
+                        <h5 class="mt-0 mb-1">Directeur Executif</h5>
+                        <p><strong>MCE</strong>(La Maison des Chefs d'Entreprises)</p>
+                        <p><i class="fas fa-map-marker"></i>Abidjan  Cote d'Ivoire <i class="far fa-clock"></i> Aujourd'hui Confirmé/Experimenté (6 à 10 ans)</p>
+                    </div>
+                    <div class="col-4 action">
+                        <div class="btn-group" role="group">
+                            <a href="#" class="btn">Lire</a>
+                            <a href="#">
+                                <i class="fas fa-2x fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <hr>
+            <li class="media">
+                <img class="mr-3" src="images/offres/o4.png" alt="Generic placeholder image">
+                <div class="media-body row">
+                    <div class="col-8 text">
+                        <h5 class="mt-0 mb-1">Directeur Executif</h5>
+                        <p><strong>MCE</strong>(La Maison des Chefs d'Entreprises)</p>
+                        <p><i class="fas fa-map-marker"></i>Abidjan  Cote d'Ivoire <i class="far fa-clock"></i> Aujourd'hui Confirmé/Experimenté (6 à 10 ans)</p>
+                    </div>
+                    <div class="col-4 action">
+                        <div class="btn-group" role="group">
+                            <a href="#" class="btn">Lire</a>
+                            <a href="#">
+                                <i class="fas fa-2x fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <hr>
+            <li class="media">
+                <img class="mr-3" src="images/offres/o5.png" alt="Generic placeholder image">
+                <div class="media-body row">
+                    <div class="col-8 text">
+                        <h5 class="mt-0 mb-1">Directeur Executif</h5>
+                        <p><strong>MCE</strong>(La Maison des Chefs d'Entreprises)</p>
+                        <p><i class="fas fa-map-marker"></i>Abidjan  Cote d'Ivoire <i class="far fa-clock"></i> Aujourd'hui Confirmé/Experimenté (6 à 10 ans)</p>
+                    </div>
+                    <div class="col-4 action">
+                        <div class="btn-group" role="group">
+                            <a href="#" class="btn">Lire</a>
+                            <a href="#">
+                                <i class="fas fa-2x fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <hr>
+            <li class="media">
+                <img class="mr-3" src="images/offres/o6.png" alt="Generic placeholder image">
+                <div class="media-body row">
+                    <div class="col-8 text">
+                        <h5 class="mt-0 mb-1">Directeur Executif</h5>
+                        <p><strong>MCE</strong>(La Maison des Chefs d'Entreprises)</p>
+                        <p><i class="fas fa-map-marker"></i>Abidjan  Cote d'Ivoire <i class="far fa-clock"></i> Aujourd'hui Confirmé/Experimenté (6 à 10 ans)</p>
+                    </div>
+                    <div class="col-4 action">
+                        <div class="btn-group" role="group">
+                            <a href="#" class="btn">Lire</a>
+                            <a href="#">
+                                <i class="fas fa-2x fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <hr>
+        </ul>
+    </div>
+    <div></div>
+</section>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
