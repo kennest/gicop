@@ -160,7 +160,26 @@ header{
 #categories  p{
     font-weight: 100;
 }
-#banner{
+#banner,#employes{
     position: relative;
     margin: 60px;
+}
+footer{
+    position: relative;
+    background-color:  #db5c4f;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+footer p{
+    font-weight: 100;
+}
+footer #arborescence a,h5{
+    color: white;
+    font-weight: 100;
+}
+#arborescence h5{
+    padding-bottom: 20px;
 }
