@@ -98,7 +98,7 @@ header{
     padding-left: 69px;
     padding-right: 69px;
  }
-#offres{
+#offres,#carriere{
     margin: 20px;
     position: relative;
 }
@@ -110,4 +110,42 @@ header{
 
 #offres .action .btn-group a{
     color: white;
+}
+.pagination > li > a{
+    z-index: 3;
+    color: white;
+    background-color: #db5c4f;
+    border-color: #ddd;
+}
+.pagination > li > a:hover{
+    color: #db5c4f;
+    background-color: white;
+}
+#carriere{
+    background-image: url("../images/carriere.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#carriere_content{
+    position: relative;
+    top: 200px;
+    right: 163px;
+}
+#carriere_content h1{
+    font-size: 70px;
+}
+#carriere_content p{
+    font-size: 22px;
+    font-weight: 100;
+}
+#carriere_content .item img{
+    padding-right: 15px;
+    border-right: 3px solid #db5c4f;
+    margin-right: 10px;
+}
+#carriere_content span{
+    color: #db5c4f;
+    font-size: large;
 }
